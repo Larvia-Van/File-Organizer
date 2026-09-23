@@ -6,7 +6,7 @@ python -m pip install --user pipx
 
 python -m pipx ensurepath
 
-cd "D:\Python_Projects\Filr Organizer"
+cd "Folder containing downloaded apps"
 
 python -m pip install --upgrade build
 
