@@ -2,11 +2,6 @@ import argparse
 import shutil
 from pathlib import Path
 
-#-----------------
-# Viết code cho phép chạy nhiều option cùng lúc theo dạng: --option values --option values <=> -xy value (xy cùng nhận một value).
-# Di dời class FileOrganizer thành một chức năng riêng thay vì để trong cli.py.
-#------------------
-
 
 class PathNotFound(Exception):
     pass
